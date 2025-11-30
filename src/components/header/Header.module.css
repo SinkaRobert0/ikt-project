@@ -1,0 +1,62 @@
+.pickaxe {
+    width: 2rem;
+    height: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    fill: white; 
+    stroke: white;
+}
+
+.headerLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navTitle {
+    margin: 0;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav {
+    z-index: 1000;
+    width: 100%;
+    height: 5rem;
+    background-color: rgba(28, 28, 131, 0.4);
+    display: flex;
+    align-items: center;
+}
+
+.yellowText {
+    color: yellow;
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.headerRight {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+    padding-right: 1rem;
+    padding-left: 3rem;
+    font-size: 1.2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.playNowButton {
+    background-color: #ffcc00;
+    color: black;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.playNowButton:hover {
+    background-color: #e6b800;
+}
