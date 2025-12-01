@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+}
+
+.mainContainer {
+  width: 25%;
+  height: auto;
+  min-height: 35rem;
+  border: 0.5px rgba(100, 20, 20, 0.5) solid;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  background-color: rgb(29, 9, 48);
+  overflow: hidden;
+  margin-top: 2rem;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+
+.gameCardImage {
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+}
+
+.tagContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.tags {
+  padding: 0.3rem 0.6rem 0.3rem 0.6rem;
+  border: 1px solid rgb(86, 199, 199);
+  border-radius: 32px;
+  background-color: rgb(86, 199, 199);
+  color: rgb(19, 63, 63);
+  font-weight: bold;
+}
+
+.gameTitle {
+  display: flex;
+  justify-content: left;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: rgb(78, 182, 230);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Orbitron", sans-serif;
+}
+
+.learnMore {
+    color: rgb(86, 199, 199);
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "Orbitron", sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.gameDescription {
+    display: flex;
+    justify-content: left;
+    font-size: 1rem;
+    color: white;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: justify;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.textContainer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
