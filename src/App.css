@@ -37,3 +37,10 @@
 .read-the-docs {
   color: #888;
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 2rem;
+}
