@@ -1,5 +1,11 @@
+import { useState } from "react";
 import style from "./../game-cards/GameCards.module.css";
-function GameCards({ image, title, description, tag1, tag2, tag3, tag4 }) {
+
+function GameCards({ image, title, description, tag1, tag2, tag3, tag4, longDesc, cardID }) {
+const [open,setOpen] = useState(false);
+  function handleClick(){
+    setOpen(!open)
+  }
   return (
     <div className={style.mainContainer}>
       <div className={style.contentContainer}>
@@ -15,7 +21,10 @@ function GameCards({ image, title, description, tag1, tag2, tag3, tag4 }) {
           <p className={style.tags}>{tag4}</p>
         </div>
       </div>
-      <p className={style.learnMore}>Learn More</p>
+      <p className={style.learnMore} onClick={handleClick}>{!open ? <p>Click to open</p> : <p>Click to close</p> }</p>
+      {open && <div>
+        <p className={style.gameDescription}>{longDesc}</p>
+      </div>}
     </div>
   );
 }

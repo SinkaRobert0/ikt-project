@@ -12,8 +12,6 @@ function Header() {
         <div className={style.headerRight}>
             <p>Games</p>
             <p>Why Sandbox?</p>
-            <p>Facts</p>
-            <button className={style.playNowButton}>Play Now!</button>
         </div>
     </nav>
     )
