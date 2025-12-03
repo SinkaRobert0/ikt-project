@@ -1,0 +1,73 @@
+.mainContainer {
+    margin-top: 5rem;
+    width: 100%;
+    height: auto;
+    background-image: url("./../../assets/dottedBackground.png");
+    background-repeat: repeat;
+    padding-bottom: 5rem;
+}
+
+.itemsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.itemDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    border: 1px solid rgb(87, 83, 83);
+    border-radius: 1rem;
+    gap: 1rem;
+    width: 20%;
+    padding-bottom: 2rem;
+    height: auto;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: "Orbitron", sans-serif;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.image {
+    width: 3rem;
+    height: 3rem;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    background-color: rgba(39, 38, 38, 0.63);
+    border-radius: 0.5rem;
+}
+
+.description {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.whySandbox {
+    padding-top: 5rem;
+}
+
+.blueText {
+    color: lightblue;
+}
+
+.whySandboxTitle {
+    font-size: 4rem;
+    font-family: "Orbitron", sans-serif;
+    font-weight: bold;
+}
+
+.whySandboxDesc {
+    font-size: 1.5rem;
+    font-family: "Orbitron", sans-serif;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}

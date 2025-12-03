@@ -9,6 +9,7 @@ import TerrariaMine from "./assets/TerrariaMine.png";
 import DontStarveTogether from "./assets/DontStarveTogether.webp";
 import GameCards from './components/game-cards/GameCards'
 import Spacing from './components/spacing/Spacing'
+import WhySandbox from './components/why-sandbox/WhySandbox'
 
 function App() {
   const gameCardsData = [
@@ -49,6 +50,7 @@ function App() {
       <GameCards {...gameCardsData[1]}></GameCards>
       <GameCards {...gameCardsData[2]}></GameCards>
       </div>
+      <WhySandbox></WhySandbox>
     </>
   )
 }
