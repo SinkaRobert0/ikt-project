@@ -6,13 +6,15 @@ import Header from './components/header/header'
 import DeepRockGalacticMine from "./assets/DeepRockGalacticMine.webp";
 import MinecraftMine from "./assets/MinecraftMine.jpg";
 import TerrariaMine from "./assets/TerrariaMine.png";
+import DontStarveTogether from "./assets/DontStarveTogether.webp";
 import GameCards from './components/game-cards/GameCards'
+import Spacing from './components/spacing/Spacing'
 
 function App() {
   const gameCardsData = [
     {
-      image: DeepRockGalacticMine,
-      title: "Deep Rock Galactic Mine",
+      image: DontStarveTogether,
+      title: "Dont Starve Together",
       description: "Grab your beer and your pickaxe! As a dwarven space miner, join your team to explore procedurally generated, destructible cave systems, complete dangerous missions, and harvest precious minerals while fending off hordes of hostile alien insects.",
       tag1: "sandbox",
       tag2: "survival",
@@ -41,6 +43,7 @@ function App() {
   return (
     <>
       <Header></Header>
+      <Spacing></Spacing>
       <div className="wrapper">
       <GameCards {...gameCardsData[0]}></GameCards>
       <GameCards {...gameCardsData[1]}></GameCards>

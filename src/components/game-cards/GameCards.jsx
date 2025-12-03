@@ -14,7 +14,6 @@ function GameCards({ image, title, description, tag1, tag2, tag3, tag4 }) {
           <p className={style.tags}>{tag3}</p>
           <p className={style.tags}>{tag4}</p>
         </div>
-
       </div>
       <p className={style.learnMore}>Learn More</p>
     </div>

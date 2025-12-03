@@ -7,13 +7,13 @@ function Header() {
     <nav className={style.nav}>
         <div className={style.headerLeft}>
             <img src={pick} alt="pickaxe" className={style.pickaxe}/>
-            <p className={style.navTitle}>Bányászós <span className={style.yellowText}>Játékok</span></p>
+            <p className={style.navTitle}>Sandbox <span className={style.yellowText}>Games</span></p>
         </div>
         <div className={style.headerRight}>
-            <p>Játékok</p>
-            <p>Miért pont bányászás?</p>
-            <p>Érdekességek</p>
-            <button className={style.playNowButton}>Játssz most!</button>
+            <p>Games</p>
+            <p>Why Sandbox?</p>
+            <p>Facts</p>
+            <button className={style.playNowButton}>Play Now!</button>
         </div>
     </nav>
     )

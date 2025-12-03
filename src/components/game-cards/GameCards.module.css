@@ -23,6 +23,7 @@
   height: 15rem;
   object-fit: cover;
   border-radius: 16px 16px 0 0;
+  mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
 }
 
 .tagContainer {
