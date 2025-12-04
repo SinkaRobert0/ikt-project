@@ -1,13 +1,13 @@
 import { useState } from "react";
 import style from "./../game-cards/GameCards.module.css";
 
-function GameCards({ image, title, description, tag1, tag2, tag3, tag4, longDesc, cardID }) {
+function GameCards({ image, title, description, tag1, tag2, tag3, tag4, longDesc, cardID,id }) {
 const [open,setOpen] = useState(false);
   function handleClick(){
     setOpen(!open)
   }
   return (
-    <div className={style.mainContainer}>
+    <div id={id} className={style.mainContainer}>
       <div className={style.contentContainer}>
         <img src={image} alt="" className={style.gameCardImage} />
         <div className={style.textContainer}>

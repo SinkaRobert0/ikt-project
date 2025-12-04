@@ -3,9 +3,9 @@ import diamond from "./../../assets/diamond.svg";
 import hammer from "./../../assets/hammer.svg";
 import group from "./../../assets/group.svg";
 import star from "./../../assets/star.svg";
-function WhySandbox() {
+function WhySandbox({id}) {
     return (
-        <div className={style.mainContainer}>
+        <div id={id}className={style.mainContainer}>
             <div className={style.whySandbox}>
             <p className={style.whySandboxTitle}>Why <span className={style.blueText}>Sandbox Games?</span></p>
             <p className={style.whySandboxDesc}>These games capture something primal – the thrill of discovery, the satisfaction of creation, and the joy of exploration.</p>

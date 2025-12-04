@@ -10,8 +10,9 @@ function Header() {
             <p className={style.navTitle}>Sandbox <span className={style.yellowText}>Games</span></p>
         </div>
         <div className={style.headerRight}>
-            <p>Games</p>
-            <p>Why Sandbox?</p>
+            <a href="#games">Games</a>
+            <a href="#sand">Why Sandbox?</a>
+            <a href="#images">Images</a>
         </div>
     </nav>
     )
